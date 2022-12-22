@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@500&family=Press+Start+2P&display=swap');
+
+:root {
+    --fontPoppins: 'Poppins', sans-serif;
+    --fontOswald: 'Oswald', sans-serif;
+    --fontPressStart: 'Press Start 2P', cursive;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #202225;
+}
+
+nav {
+    background-color: #181818;
+    border-bottom: 1px solid aqua;
+}
+
+a {
+    text-decoration: none;
+    color: #DDD;
+}
+
+li {
+    list-style: none;
+}
+
+.nav {
+    display: flex;
+    height: 4rem;
+    align-items: center;
+}
+
+.navbar {
+    font-family: var(--fontOswald);
+    display: flex;
+    position: absolute;
+    right: 3rem;
+}
+
+.brand {
+    padding-left: 1rem;
+}
+
+.brandTitle {
+    font-family: var(--fontPressStart);
+    margin: .3rem;
+}
+
+.brandController {
+    color: aqua;
+}
+
+.navbar li {
+    margin-right: 1em;
+}
+
+.shoppingCart {
+    color: aqua;
+    position: absolute;
+    right: 2rem;
+    top: .2rem;
+}
+
+.shopping {
+    position: absolute;
+    right: .1rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.itemsInCart {
+    display: block;
+    background-color: red;
+    font-family: var(--fontPressStart);
+    border-radius: 50%;
+    height: 1.3rem;
+    width: 1.3rem;
+    line-height: 20px;
+    position: relative;
+    right: 1.3rem;
+    top: .5rem;
+}
